@@ -81,6 +81,7 @@ resource "azurerm_resource_group" "rg" {
 
   tags = {
     environment = local.group_name
+    SecurityControl = "Ignore"
   }
 }
 
